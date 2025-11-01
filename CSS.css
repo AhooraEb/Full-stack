@@ -1,25 +1,54 @@
 
 
-header{
-background-color : #0925b2b6;
-padding : 20px;
-text-align : center;        
-font-size : 25px;
-font-family : Arial, Helvetica, sans-serif;
-color : #d5dc11;
-margin: 0 px
+
+
+.container h1{
+    text-align : center;        
+    font-family : Arial, Helvetica, sans-serif;
+    color : #d5dc11;
+   
 
 
 }
+
+.container{
+    background-color : #132891b6;
+    padding : 20px;
+    text-align : center;        
+    font-size : 25px;
+    font-family : Arial, Helvetica, sans-serif;
+    color : #0fc969;
+    margin: 20px;
+    width:90%;
+    overflow: hidden;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 40px
+
+}
+
+
+
 
 body{
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     font-style: bold;
-    background-color: #067cdd9c;
+    background-color: #045ba3c2;
     margin: 20px;
     color:antiquewhite
+}
+
+#main{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #132891b6;
+    color: #d5dc11;
 }
 
 footer{
@@ -33,10 +62,10 @@ footer{
 }
 
 h2{
-    text-align: left;
+    
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     font-style: bold;
     color: #0b1f8f;
-    margin-left: 10px;
+    
 }
